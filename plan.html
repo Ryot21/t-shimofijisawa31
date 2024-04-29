@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プラン | 物件名</title>                                                               <!-- タイトルの頭に【...】はつけない -->
-    <link rel="icon" href="images/favicon.ico">                                                 <!-- 32px x 32px -->
-    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon.jpg">       <!-- 120px x 120px -->
+    <title>プラン | ～Wistaria武蔵藤沢～</title>                                    <!-- タイトルの頭に【...】はつけない -->
+    <link rel="icon" href="images/favicon.ico">                                                   <!-- 32px x 32px -->
+    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon/grancia.jpg"> <!-- 120px x 120px -->
 
     <!-- デプロイ前に確認・サンプル -->
-    <meta name="keywords" content="市町村,地名,新築戸建or建築条件付き土地,グランシア,住協">
-    <meta name="description" content="">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="入間市,下藤沢,西武池袋線,武蔵藤沢駅,稲荷山公園駅,西武新宿線,入曽駅,建築条件付土地,グランシア,住協">
+    <meta name="description" content="
+        入間市の下藤沢に誕生した「ウィスタリア武蔵藤沢」。
+        地名にある「藤」の字から連想し調べてみると、
+        藤の花には「家運繁盛」という意味もあり、花言葉は「決して離れない」。
+        家族が仲良くずっと一緒に暮らせる街に相応しいと思い、命名することになりました。
+
+    ">
+    <meta name="format-detection" content="telephone=no" />
     <!-- SNS関係 -->
     <meta property="og:locale"       content="ja_JP"/>
-    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/template_html/plan.html"/>
-    <meta property="og:type"         content="article"/>                                         <!-- Top：website、下層ページ：article -->
-    <meta property="og:site_name"    content="住協グループの住まい情報"/>                          <!-- ページが属する大元のサイト名 -->
-    <meta property="og:title"        content="プラン | 物件名"/>                                 <!-- SNS表示用のタイトル | 通常のタイトルと同じ内容 -->
-    <meta property="og:description"  content=""/>                                                <!-- SNS表示用の説明文 | 通常の説明文と同じ内容 -->
-    <meta property="og:image"        content="images/sns/sample-plan.jpg"/>                      <!-- SNS表示用のサムネイル 1200px × 630px -->
+    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/shimofujisawa31/plan.html">
+    <meta property="og:type"         content="article">                                         <!-- Top：website、下層ページ：article -->
+    <meta property="og:site_name"    content="住協グループの住まい情報"/>                         <!-- ページが属する大元のサイト名 -->
+    <meta property="og:title"        content="プラン | GRANCIA入間 下藤沢31期">     <!-- SNS表示用のタイトル -->
+    <meta property="og:description"  content="
+        入間市の下藤沢に誕生した「ウィスタリア武蔵藤沢」。
+        地名にある「藤」の字から連想し調べてみると、
+        藤の花には「家運繁盛」という意味もあり、花言葉は「決して離れない」。
+        家族が仲良くずっと一緒に暮らせる街に相応しいと思い、命名することになりました。
+    "><!-- 通常のdescriptionと同じ内容 -->
+    <meta property="og:image"        content="images/sns/share.jpg">                            <!-- SNS表示用のサムネイル 1200px × 630px -->
     <!-- //SNS関係 -->
     <!--// デプロイ前に確認・サンプル -->
+
     <link rel="stylesheet" href="css/style.css">
     <script src="js/swiper.min.js"></script>
-    <script src="js/luminous.min.js"></script>
-
     <!-- Fonts / WEBフォントは使用しないこと -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -41,6 +51,7 @@
             location.replace(location.href.replace(/http:/, 'https:'));
         }
     </script>
+    <!-- //Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body class="p-plan js_humburgerClose">
 
@@ -58,14 +69,16 @@
 			<ul class="">
 				<li class=""><a class="s-SS -ws-n -left"  href="index.html"><span class="s-M pdr5 pdr4s">TOP</span>トップ</a></li>
 				<li class=""><a class="s-SS -ws-n -left"  href="concept.html"><span class="s-M pdr5 pdr4s">CONCEPT</span>コンセプト</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画・間取</a></li>
-				<li class=""><a class="s-SS -ws-n -left -active"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>参考プラン</a></li>
+				<li class=""><a class="s-SS -ws-n -left"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画</a></li>
+				<li class=""><a class="s-SS -ws-n -left -active"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>プラン</a></li>
 				<li class=""><a class="s-SS -ws-n -left"  href="equipment.html"><span class="s-M pdr5 pdr4s">EQUIPMENT</span>設備・仕様</a></li>
+                <li class=""><a class="s-SS -ws-n -left"  href="structure.html"><span class="s-M pdr5 pdr4s">STRUCTURE</span>構造</a></li>
                 <li class=""><a class="s-SS -ws-n -left"  href="location.html"><span class="s-M pdr5 pdr4s">LOCATION</span>周辺環境</a></li>
-                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li>
+                <li class=""><a class="s-SS -ws-n -left"  href="gallery.html"><span class="s-M pdr5 pdr4s">GALLERY</span>ギャラリー</a></li>
+                <!-- <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li> -->
                 <!-- <li class="mgb15 mgb15s"><label class="popup popup-open s-SS -ws-n -left" for="popup01"><span class="s-M pdr5 pdr4s">OVERVIEW</span>物件概要</label></li> -->
                 <!-- 物件概要はここには設置しないこと -->
-                <div class="c-hnav__contactArea">
+                <div class="c-hnav__contactArea -grayOutItem">
                     <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712932969" class="c-hnav__top navItem -lh-1">
                         <span class="navItem-cTitle -main s-M">資料請求</span>
                         <br>
@@ -88,19 +101,17 @@
 
     <!-- header / TOPと各ページの構造が異なる -->
     <header id="header" class="c-header pdt1">
-        <div class="c-header-wrapper pdb1"><!-- バナー表示エリア -->
+        <div class="c-header-wrapper pdb1_4"><!-- バナー表示エリア -->
             <div class="c-header__popArea">
                 <ul class="c-header__lists">
                     <li class="logo pdr1">
                         <div class="c-contents -h-logo">
                             <div class="imgBox">
                                 <!-- PCサイズ：757x110 -->
-                                <img class="tb-pc" src="https://via.placeholder.com/757x110/?text=TB-PC 757x110">
+                                <img class="tb-pc" src="images/SVG/h-banner.svg" alt="グランシア入間 | 下藤沢31期">
                                 <!-- SPサイズ：325x110 -->
-                                <img class="sp" src="https://via.placeholder.com/325x110/?text=SP 325x110">
+                                <img class="sp" src="images/SVG/h-banner_s.svg"  alt="グランシア入間 | 下藤沢31期">
                             </div>
-                            <div class="c-contentsBox -logo-item01"><img src="images/logo/site-logo-bird01.png" alt="動かす画像1"></div>
-                            <div class="c-contentsBox -logo-item02"><img src="images/logo/site-logo-bird02.png" alt="動かす画像2"></div>
                             <!-- SOLD OUT -->
                             <!-- <div class="c-contentsBox -soldOut">
                                 <img src="images/item/soldout.png" alt="完売御礼 | おかげさまでお契約いただいきました！">
@@ -118,7 +129,7 @@
                             <br>
                             <span class="navItem-cTitle -sub s-SS -s-nav">RESERV</span>
                         </a>
-                        <div class="tag"><span class="s-S -s-nav -ws-n">物件名物件名／新築分譲住宅⚪︎号棟</span></div>
+                        <div class="tag"><span class="s-S -s-nav -ws-n">グランシア入間／下藤沢31期</span></div>
                     </li>
                 </ul>
             </div>
@@ -127,22 +138,22 @@
             <nav class="c-header__navArea -navColor">
                 <ul class="c-header__navLists -col8">
                     <li class="navItem">
-                        <a href="index.html" class="navItem__link -lh-1">
+                        <a href="index.html" class=" navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">トップ</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">TOP</span>
                         </a>
                     </li>
                     <li class="navItem">
-                        <a href="concept.html" class="navItem__link -lh-1">
+                        <a href="concept.html" class=" navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">コンセプト</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">CONCEPT</span>
                         </a>
                     </li>
                     <li class="navItem">
-                        <a href="layout.html" class="navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">区画・間取</span>
+                        <a href="layout.html" class=" navItem__link -lh-1">
+                            <span class="navItem-title -main s-M -s-nav">区画</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">LAYOUT</span>
                         </a>
@@ -162,6 +173,13 @@
                         </a>
                     </li>
                     <li class="navItem">
+                        <a href="structure.html" class="navItem__link -lh-1">
+                            <span class="navItem-title -main s-M -s-nav">構造</span>
+                            <br>
+                            <span class="navItem-title -sub s-SS -s-nav">STRUCTURE</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
                         <a href="location.html" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">周辺環境</span>
                             <br>
@@ -169,14 +187,20 @@
                         </a>
                     </li>
                     <li class="navItem">
+                        <a href="gallery.html" class="navItem__link -lh-1">
+                            <span class="navItem-title -main s-M -s-nav">ギャラリー</span>
+                            <br>
+                            <span class="navItem-title -sub s-SS -s-nav">GALLERY</span>
+                        </a>
+                    </li>
+                    <!-- <li class="navItem">
                         <a href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">住協の家づくり</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">QUALITY</span>
                         </a>
-                    </li>
-                    <li class="navItem d-menu">
-                        <!-- ドロップメニュー -->
+                    </li> -->
+                    <!-- <li class="navItem d-menu">
                         <input id="d-menu__checkbox" class="d-menu__cheakbox" type="checkbox"/>
                         <label class="d-menu__title -lh-1" for="d-menu__checkbox">
                             <span class="navItem-title -main s-M -s-nav">物件概要</span>
@@ -191,8 +215,7 @@
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup02">建築条件付き土地</label>
                             </li>
                         </ul>
-                        <!-- //ドロップメニュー -->
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>
@@ -204,81 +227,41 @@
         <!-- ファーストビュー -->
         <div class="c-contents -f-view w1100 mgb3 mgb5s">
             <div class="imgBox a-fade-blur">
-                <img class="sp" src="https://via.placeholder.com/750x500/?text=SP 750x500">
-                <img class="tb-pc" src="https://via.placeholder.com/1920x960/?text=TB-PC 1920x960">
+                <img class="" src="images/f-view/plan-view.jpg">
             </div>
-            <!-- SPのみ / ページタイトル -->
-            <h1 class="sp c-contentsBox -f-title -f-title_c -plan -shadow -ws-n s-3L  a-fade -sp3">PLAN</h1>
-            <p class="s-S -right a-fade -sp4"><span class="s-kome">※内観完成予想図</span></p>
+            <p class="s-S -right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
         </div>
         <div class="c-contents w1100 mgb10 mgb10s">
-            <div class="c-contents-inner">
+            <div class="c-contents-inner mgb10 mgb10s">
                 <!-- コンテンツ > タイトル -->
-                <h2 class="c-contents_MainTitle -icon -left -lh-n mgb2 mgb3s">
-                    ページタイトル
+                <h2 class="c-contents_MainTitle -icon -row02 -row02_s s-LL -left -lh-n -lh-1_5_s pdl3 pdl5s mgb2 mgb3s">
+                    <span class="tb-pc">
+                        16,000棟以上の実績を誇る住協グループだからできる、
+                        <br>それぞれの家族の理想をカタチにする家づくり。
+                    </span>
+                    <span class="sp">それぞれの家族の理想をカタチにする家づくり。</span>
                 </h2>
                 <!-- コンテンツ > 説明 -->
-                <p class="s-M -f-gothic -left -lh-1_5 -lh-1_5_s mgb20 mgb20s a-fadeUp -sc40">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br class="tb-pc"><br class="tb-pc">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                <p class="s-M -left -lh-2 a-fadeUp -sc40">
+                    実際に建築できる間取りは無限大です。何でもご希望をお伝えください。各分野のプロフェッショナル（営業・設計士・インテリアコーディネーター・カラーコーディネーター）がお客様の理想をカタチにするお手伝いさせていただきます。
                 </p>
             </div>
 
-            <!-- ---------------- 外観【SP2カラム、PC2カラム】 ------------------- -->
+            <!-- ---------------- 【 参考プラン 】 ------------------- -->
             <div class="c-contents w95 mgb10 mgb10s">
-                <article>
-                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
-                        <li class="c-contents">
-                            <div>
-                                <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeRight -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="tb-pc s-M -lh-2 -left a-fadeRight -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                                <p class="sp s-M -lh-1_5_s -left a-fadeRight -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="a-flipLeft -sc40">
-                            <div class="a-zoomImg">
-                                <div class="imgBox a-imgMono"><img class="" src="images/pic/layout_1-05.jpg"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
-
-                <article>
-                    <ul class="c-flex -h-c_pc -col2_2">
-                        <li class="">
-                            <div class="">
-                                <p class="c-contents_subTitle s-L -s14 -left mgb5 mgb5s a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="tb-pc s-M -lh-2 -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                                <p class="sp s-M -lh-1_5_s -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="a-flipRight -sp5 -sc40">
-                            <div class="a-zoomImg">
-                                <div class="imgBox"><img src="https://via.placeholder.com/480x320/?text=480x320"></div>
-                                <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
-
+                <h2 class="c-contents_title -plan -b-btm s-LL -center mgb10 mgb15s">参考プラン</h2>
+                <div class="imgBox mgb2 mgb2s">
+                    <img class="mgb5 mgb5s" src="images/pic/plan/plan-01.jpg" alt="Coming Soon">
+                </div>
+                <!-- コンテンツ > タイトル -->
+                <h2 class="s-LL -s16 -left -lh-n -lh-1_5_s mgb2 mgb3s">
+                        自由設計の間取りはあなた次第！
+                        <br class="tb-pc">理想の間取りや設備など、全てをお聞かせください。
+                </h2>
+                <!-- コンテンツ > 説明 -->
+                <p class="s-M -left -lh-2 a-fadeUp -sc40">
+                    「リビングを広くしたい！」「大きなパントリーがほしい！」「おうちキャンプがしたい！」など理想に合わせたプランニングをご提案します。室内だけではなく、外観も北欧風やアメリカンスタイルなど、お好みのテイストにすることが可能です。
+                </p>
             </div>
             <!-- ---------------- 【 > スライダー関係 】　---------------- -->
             <div class="c-contents w95 mgb20 mgb20s">

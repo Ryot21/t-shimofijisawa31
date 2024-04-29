@@ -184,8 +184,8 @@
 	}
 	&.-f-view{//ファーストビュー
 		position: relative;
-		overflow: hidden;
 		.imgBox{
+			overflow: hidden;
 			&.-top{
 				&::after{
 					content:"";
@@ -267,6 +267,22 @@
 					transform: translate(-50%, -50%);
 					width: 60%;
 					z-index: 1;
+				}
+			}
+
+			// コンセプトページ
+			&.-concept_bg{
+				top: 86%;
+				left: 55%;
+				transform: translate(-50%, -50%);
+				width: 105%;
+				opacity: 0.1;
+				z-index: -1;
+				@include min(768){
+					top: 80%;
+					left: 75%;
+					width: 70%;
+					opacity: .8;
 				}
 			}
 		}

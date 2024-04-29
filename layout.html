@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>区画・間取 | 物件名</title>                                                           <!-- タイトルの頭に【...】はつけない -->
-    <link rel="icon" href="images/favicon.ico">                                                 <!-- 32px x 32px -->
-    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon.jpg">       <!-- 120px x 120px -->
+    <title>区画 | ～Wistaria武蔵藤沢～</title>                                    <!-- タイトルの頭に【...】はつけない -->
+    <link rel="icon" href="images/favicon.ico">                                                   <!-- 32px x 32px -->
+    <link rel="apple-touch-icon" type="image/png" href="images/sns/apple-touch-icon/grancia.jpg"> <!-- 120px x 120px -->
 
     <!-- デプロイ前に確認・サンプル -->
-    <meta name="keywords" content="市町村,地名,新築戸建or建築条件付き土地,グランシア,住協">
-    <meta name="description" content="">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="入間市,下藤沢,西武池袋線,武蔵藤沢駅,稲荷山公園駅,西武新宿線,入曽駅,建築条件付土地,グランシア,住協">
+    <meta name="description" content="
+        入間市の下藤沢に誕生した「ウィスタリア武蔵藤沢」。
+        地名にある「藤」の字から連想し調べてみると、
+        藤の花には「家運繁盛」という意味もあり、花言葉は「決して離れない」。
+        家族が仲良くずっと一緒に暮らせる街に相応しいと思い、命名することになりました。
+
+    ">
+    <meta name="format-detection" content="telephone=no" />
     <!-- SNS関係 -->
     <meta property="og:locale"       content="ja_JP"/>
-    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/template_html/layout.html"/>
-    <meta property="og:type"         content="article"/>                                         <!-- Top：website、下層ページ：article -->
-    <meta property="og:site_name"    content="住協グループの住まい情報"/>                          <!-- ページが属する大元のサイト名 -->
-    <meta property="og:title"        content="区画・間取 | 物件名"/>                              <!-- SNS表示用のタイトル | 通常のタイトルと同じ内容 -->
-    <meta property="og:description"  content=""/>                                                <!-- SNS表示用の説明文 | 通常の説明文と同じ内容 -->
-    <meta property="og:image"        content="images/sns/sample-layout.jpg"/>                    <!-- SNS表示用のサムネイル 1200px × 630px -->
+    <meta property="og:url"          content="https://www.jyu-g.co.jp/special/shimofujisawa31/layout.html">
+    <meta property="og:type"         content="article">                                         <!-- Top：website、下層ページ：article -->
+    <meta property="og:site_name"    content="住協グループの住まい情報"/>                         <!-- ページが属する大元のサイト名 -->
+    <meta property="og:title"        content="区画 | GRANCIA入間 下藤沢31期">     <!-- SNS表示用のタイトル -->
+    <meta property="og:description"  content="
+        入間市の下藤沢に誕生した「ウィスタリア武蔵藤沢」。
+        地名にある「藤」の字から連想し調べてみると、
+        藤の花には「家運繁盛」という意味もあり、花言葉は「決して離れない」。
+        家族が仲良くずっと一緒に暮らせる街に相応しいと思い、命名することになりました。
+    "><!-- 通常のdescriptionと同じ内容 -->
+    <meta property="og:image"        content="images/sns/share.jpg">                            <!-- SNS表示用のサムネイル 1200px × 630px -->
     <!-- //SNS関係 -->
     <!--// デプロイ前に確認・サンプル -->
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/luminous.min.js"></script>
 
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/swiper.min.js"></script>
     <!-- Fonts / WEBフォントは使用しないこと -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48905020-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -40,6 +51,7 @@
             location.replace(location.href.replace(/http:/, 'https:'));
         }
     </script>
+    <!-- //Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body class="p-layout js_humburgerClose">
 
@@ -57,14 +69,16 @@
 			<ul class="">
 				<li class=""><a class="s-SS -ws-n -left"  href="index.html"><span class="s-M pdr5 pdr4s">TOP</span>トップ</a></li>
 				<li class=""><a class="s-SS -ws-n -left"  href="concept.html"><span class="s-M pdr5 pdr4s">CONCEPT</span>コンセプト</a></li>
-				<li class=""><a class="s-SS -ws-n -left -active"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画・間取</a></li>
-				<li class=""><a class="s-SS -ws-n -left"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>参考プラン</a></li>
+				<li class=""><a class="s-SS -ws-n -left -active"  href="layout.html"><span class="s-M pdr5 pdr4s">LAYOUT</span>区画</a></li>
+				<li class=""><a class="s-SS -ws-n -left"  href="plan.html"><span class="s-M pdr5 pdr4s">PLAN</span>プラン</a></li>
 				<li class=""><a class="s-SS -ws-n -left"  href="equipment.html"><span class="s-M pdr5 pdr4s">EQUIPMENT</span>設備・仕様</a></li>
+                <li class=""><a class="s-SS -ws-n -left"  href="structure.html"><span class="s-M pdr5 pdr4s">STRUCTURE</span>構造</a></li>
                 <li class=""><a class="s-SS -ws-n -left"  href="location.html"><span class="s-M pdr5 pdr4s">LOCATION</span>周辺環境</a></li>
-                <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li>
+                <li class=""><a class="s-SS -ws-n -left"  href="gallery.html"><span class="s-M pdr5 pdr4s">GALLERY</span>ギャラリー</a></li>
+                <!-- <li class="mgb15 mgb15s"><a class="s-SS -ws-n -left"  href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank"><span class="s-M pdr5 pdr4s">QUALITY</span>住協の家づくり</a></li> -->
                 <!-- <li class="mgb15 mgb15s"><label class="popup popup-open s-SS -ws-n -left" for="popup01"><span class="s-M pdr5 pdr4s">OVERVIEW</span>物件概要</label></li> -->
                 <!-- 物件概要はここには設置しないこと -->
-                <div class="c-hnav__contactArea">
+                <div class="c-hnav__contactArea -grayOutItem">
                     <a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712932969" class="c-hnav__top navItem -lh-1">
                         <span class="navItem-cTitle -main s-M">資料請求</span>
                         <br>
@@ -87,19 +101,17 @@
 
     <!-- header / TOPと各ページの構造が異なる -->
     <header id="header" class="c-header pdt1">
-        <div class="c-header-wrapper pdb1"><!-- バナー表示エリア -->
+        <div class="c-header-wrapper pdb1_4"><!-- バナー表示エリア -->
             <div class="c-header__popArea">
                 <ul class="c-header__lists">
                     <li class="logo pdr1">
                         <div class="c-contents -h-logo">
                             <div class="imgBox">
                                 <!-- PCサイズ：757x110 -->
-                                <img class="tb-pc" src="https://via.placeholder.com/757x110/?text=TB-PC 757x110">
+                                <img class="tb-pc" src="images/SVG/h-banner.svg" alt="グランシア入間 | 下藤沢31期">
                                 <!-- SPサイズ：325x110 -->
-                                <img class="sp" src="https://via.placeholder.com/325x110/?text=SP 325x110">
+                                <img class="sp" src="images/SVG/h-banner_s.svg"  alt="グランシア入間 | 下藤沢31期">
                             </div>
-                            <div class="c-contentsBox -logo-item01"><img src="images/logo/site-logo-bird01.png" alt="動かす画像1"></div>
-                            <div class="c-contentsBox -logo-item02"><img src="images/logo/site-logo-bird02.png" alt="動かす画像2"></div>
                             <!-- SOLD OUT -->
                             <!-- <div class="c-contentsBox -soldOut">
                                 <img src="images/item/soldout.png" alt="完売御礼 | おかげさまでお契約いただいきました！">
@@ -117,7 +129,7 @@
                             <br>
                             <span class="navItem-cTitle -sub s-SS -s-nav">RESERV</span>
                         </a>
-                        <div class="tag"><span class="s-S -s-nav -ws-n">物件名物件名／新築分譲住宅⚪︎号棟</span></div>
+                        <div class="tag"><span class="s-S -s-nav -ws-n">グランシア入間／下藤沢31期</span></div>
                     </li>
                 </ul>
             </div>
@@ -126,14 +138,14 @@
             <nav class="c-header__navArea -navColor">
                 <ul class="c-header__navLists -col8">
                     <li class="navItem">
-                        <a href="index.html" class="navItem__link -lh-1">
+                        <a href="index.html" class=" navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">トップ</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">TOP</span>
                         </a>
                     </li>
                     <li class="navItem">
-                        <a href="concept.html" class="navItem__link -lh-1">
+                        <a href="concept.html" class=" navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">コンセプト</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">CONCEPT</span>
@@ -141,7 +153,7 @@
                     </li>
                     <li class="navItem">
                         <a href="layout.html" class="-active navItem__link -lh-1">
-                            <span class="navItem-title -main s-M -s-nav">区画・間取</span>
+                            <span class="navItem-title -main s-M -s-nav">区画</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">LAYOUT</span>
                         </a>
@@ -161,6 +173,13 @@
                         </a>
                     </li>
                     <li class="navItem">
+                        <a href="structure.html" class="navItem__link -lh-1">
+                            <span class="navItem-title -main s-M -s-nav">構造</span>
+                            <br>
+                            <span class="navItem-title -sub s-SS -s-nav">STRUCTURE</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
                         <a href="location.html" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">周辺環境</span>
                             <br>
@@ -168,14 +187,20 @@
                         </a>
                     </li>
                     <li class="navItem">
+                        <a href="gallery.html" class="navItem__link -lh-1">
+                            <span class="navItem-title -main s-M -s-nav">ギャラリー</span>
+                            <br>
+                            <span class="navItem-title -sub s-SS -s-nav">GALLERY</span>
+                        </a>
+                    </li>
+                    <!-- <li class="navItem">
                         <a href="https://www.jyukyo-cnst.co.jp/house/order/house-making/" target="_blank" class="navItem__link -lh-1">
                             <span class="navItem-title -main s-M -s-nav">住協の家づくり</span>
                             <br>
                             <span class="navItem-title -sub s-SS -s-nav">QUALITY</span>
                         </a>
-                    </li>
-                    <li class="navItem d-menu">
-                        <!-- ドロップメニュー -->
+                    </li> -->
+                    <!-- <li class="navItem d-menu">
                         <input id="d-menu__checkbox" class="d-menu__cheakbox" type="checkbox"/>
                         <label class="d-menu__title -lh-1" for="d-menu__checkbox">
                             <span class="navItem-title -main s-M -s-nav">物件概要</span>
@@ -190,8 +215,7 @@
                                 <label class="d-menu__subTitle s-SS popup popup-open" for="popup02">建築条件付き土地</label>
                             </li>
                         </ul>
-                        <!-- //ドロップメニュー -->
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>
@@ -203,93 +227,73 @@
         <!-- ファーストビュー -->
         <div class="c-contents -f-view w1100 mgb3 mgb5s">
             <div class="imgBox  a-fade-blur">
-                <img class="sp" src="https://via.placeholder.com/750x500/?text=SP 750x500">
-                <img class="tb-pc" src="https://via.placeholder.com/1920x900/?text=TB-PC 1920xFREE">
+                <img class="" src="images/f-view/layout-view.jpg">
             </div>
-            <!-- SPのみ / ページタイトル -->
-            <h1 class="sp c-contentsBox -f-title -f-title_r -layout -ws-n s-LL -f-mincho a-fade -sp3">LAYOUT</h1>
-            <p class="-right a-fade -sp4"><span class="s-kome pdr4s">※外観完成予想図</span></p>
-
+            <p class="-right a-fade -sp4"><span class="s-kome pdr4s">※過去分譲地</span></p>
         </div>
         <!-- コンテンツ -->
         <div class="c-contents w1100 mgb10 mgb10s">
-            <div class="c-contents-inner">
+            <div class="c-contents-inner mgb10 mgb10s">
                 <!-- コンテンツ > タイトル -->
-                <h2 class="c-contents_MainTitle -icon -left -lh-n mgb2 mgb3s">
-                    ページタイトル
+                <h2 class="c-contents_MainTitle -icon -row02_s s-LL -left -lh-n -lh-1_5_s pdl3 pdl5s mgb2 mgb3s">
+                    地盤スコア90の強固で<br class="sp">安心・安全な街
                 </h2>
                 <!-- コンテンツ > 説明 -->
-                <p class="s-M -f-gothic -left -lh-1_5 -lh-1_5_s mgb20 mgb20s a-fadeUp -sc40">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br class=""><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br><br>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                <p class="s-M -left -lh-2 a-fadeUp -sc40">
+                    入間市下藤沢の中でも高台に位置するウィスタリア武蔵藤沢は、安定した地盤エリアを誇ります。液状化の心配、震災リスクの軽減など、「定住」に適した街といえます。小学校や中学校、幼稚園、保育園、公園なども近く、閑静な住宅街でありながら大通りにも出やすいので、夜も暗すぎる事がなく駅や学校までの道のりも安心感があります。
                 </p>
             </div>
-            <!-- ----------------【PC2カラム】 ------------------- -->
+            <!-- ----------------【 区画図／配置図 】 ------------------- -->
             <div class="tb-pc c-contents w95 mgb10 mgb10s">
-                <h2 class="c-contents_title -layout -b-btm s-LL -center mgb10 mgb15s">コンテンツタイトル</h2>
+                <h2 class="c-contents_title -layout -b-btm s-LL -center mgb10 mgb15s">区画図/配置図</h2>
                 <article>
-                    <ul class="c-flex -col1_2 -cr_s">
-                        <li class="text">
-                            <div class="mgb15 mgb10s">
-                                <p class="c-contents_subTitle -iconBox -iconBtm -borderBtm -dot s-L -left a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="s-M -lh-2 -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                            <div class="mgb5 mgb10s">
-                                <p class="c-contents_subTitle -iconBox -iconBtm -borderBtm -dot s-L -left a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
-                                <p class="s-M -lh-2 -left a-fadeLeft -sc40">
-                                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                                </p>
-                            </div>
-                        </li>
-                        <li class="img mgb8s">
-                            <img src="https://via.placeholder.com/630x473/?text=ALL 630x473(4:3)">
-                        </li>
-                    </ul>
+                    <div class="c-contents">
+                        <img src="images/pic/layout/layout-01.jpg" alt="40坪超 | 整形地 | 南側道路面 | 広い4.2m～5.5m道路幅員">
+                    </div>
                 </article>
             </div>
-            <!-- ---------------- 【SP・PC1カラム】 ------------------- -->
-            <div class="c-contents w95 mgb10 mgb10s">
-                <h2 class="c-contents_title -sample -b-btm s-LL -center mgb10 mgb15s">コンテンツタイトル</h2>
-                <img class="mgb5 mgb5s" src="https://via.placeholder.com/1100x619/?text=ALL 1100x619(16:9)">
-                <!-- ボーダーボックス -->
-                <div class="c-borderBox -double mgb10 mgb10s">
-                    <p class="s-L -center"><span class="s-3L -b">3</span>LDK + 特徴その1 + 特徴その2</p>
-                </div>
-                <div class="sp mgb20s">
-                    <ul class="c-flex -col2_2">
-                        <li>
-                            <p class="c-contents_subTitle -iconBox -iconBtm -borderBtm s-L -left pdl7s">コンテンツアイテム_タイトル</p>
-                            <p class="s-M -left -lh-1_5_s">
-                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                            </p>
-                        </li>
-                        <li>
-                            <p class="c-contents_subTitle -iconBox -iconBtm -borderBtm s-L -left pdl7s">コンテンツアイテム_タイトル</p>
-                            <p class="s-M -left -lh-1_5_s">
-                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ---------------- 【SP2カラム、PC2カラム】 ------------------- -->
             <div class="c-contents w95 mgb10 mgb10s">
                 <article>
                     <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
                         <li class="">
-                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeRight -sc40">コンテンツアイテム_タイトル</p>
+                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeRight -sc40">約4.2～5.5m開発道路</p>
                             <p class="s-M -lh-2 -lh-1_5_s -left a-fadeRight -sc40">
-                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                                通り抜けのできない開発道路なので住人以外の車や人の侵入が少なく安全。道路を囲むように住宅が並ぶので、住民間のコミュニケーションが活発になり自然とコミュニティが形成されます。
                             </p>
                         </li>
                         <li class=" a-flipLeft -sc40">
-                            <img src="https://via.placeholder.com/475x320/?text=480x320">
-                            <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
+                            <img src="images/pic/layout/layout-02.jpg">
+                            <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <ul class="c-flex -h-c_pc -col2_2 mgb10 mgb10s">
+                        <li class="">
+                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeLeft -sc40">大型開発分譲地</p>
+                            <p class="s-M -lh-2 -lh-1_5_s -left a-fadeLeft -sc40">
+                                同時期に同世代の家族が集まりやすく、お子さまがいる家庭の場合は同年代の子どもたちがいることが多いので、コミュニケーションが生まれやすいメリットがあります。
+                            </p>
+                        </li>
+                        <li class="a-flipRight -sc40">
+                            <img src="images/pic/layout/layout-03.jpg">
+                            <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <ul class="c-flex -h-c_pc -col2_2 -r mgb10 mgb10s">
+                        <li class="">
+                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeRight -sc40">南向き</p>
+                            <p class="s-M -lh-2 -lh-1_5_s -left a-fadeRight -sc40">
+                                太陽は東から昇り、西へ沈んでいきます。つまり、南側に採光面を確保できる間取りや区画は、室内に陽が入る時間が長くなるため、快適で過ごしやすい空間づくりが可能です。
+                            </p>
+                        </li>
+                        <li class=" a-flipLeft -sc40">
+                            <img src="images/pic/layout/layout-04.jpg">
+                            <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
                         </li>
                     </ul>
                 </article>
@@ -297,438 +301,19 @@
                 <article>
                     <ul class="c-flex -h-c_pc -col2_2">
                         <li class="">
-                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeLeft -sc40">コンテンツアイテム_タイトル</p>
+                            <p class="c-contents_subTitle s-L -left mgb5 mgb5s a-fadeLeft -sc40">整形地</p>
                             <p class="s-M -lh-2 -lh-1_5_s -left a-fadeLeft -sc40">
-                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+                                土地の形が正方形や長方形の場合は「整形地」と呼ばれます。一般的には住宅は四角い為、整形地であれば間取りプランの選択肢が増えるメリットがあります。
                             </p>
                         </li>
                         <li class="a-flipRight -sc40">
-                            <img src="https://via.placeholder.com/475x320/?text=480x320">
-                            <p class="-right a-fade -sp4"><span class="s-kome -color03">※イメージ</span></p>
+                            <img src="images/pic/layout/layout-05.jpg">
+                            <p class="-right a-fade -sp4"><span class="s-kome">※イメージ</span></p>
                         </li>
                     </ul>
                 </article>
-
             </div>
 
-            <!-- タブ + 画像モーダル -->
-            <div class="c-contents-inner">
-                <div class="c-tabArea -col4" style="position: relative;">
-                    <input id="no1" type="radio" name="t-01" checked>
-                    <label class="tab-item s-L -center pdt1 pdt1s pdb1 pdb1s mgb5" for="no1">No.1</label>
-                    <input id="no2" type="radio" name="t-01" >
-                    <label class="tab-item s-L -center pdt1 pdt1s pdb1 pdb1s mgb5" for="no2">No.2</label>
-                    <input id="no3" type="radio" name="t-01">
-                    <label class="tab-item s-L -center pdt1 pdt1s pdb1 pdb1s mgb5" for="no3">No.3</label>
-                    <input id="no4" type="radio" name="t-01">
-                    <label class="tab-item s-L -center pdt1 pdt1s pdb1 pdb1s mgb5 mgb5s" for="no4">No.4</label>
-
-                    <!-- 1号棟 -->
-                    <div class="tab-content" id="no1-content">
-                        <ul class="c-flex -col2_3">
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 1/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 1/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 2/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 2/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 3/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 3/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 4/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 4/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 5/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 5/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 6/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 6/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 7/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 7/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 8/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 8/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 9/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 9/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 10/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 10/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 11/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 11/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 12/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 12/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- 2号棟 -->
-                    <div class="tab-content" id="no2-content">
-                        <ul class="c-flex -col2_3">
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 1/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 1/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 2/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 2/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 3/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 3/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 4/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 4/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 5/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 5/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 6/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 6/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 7/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 7/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 8/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 8/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 9/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 9/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 10/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 10/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 11/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 11/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 12/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 12/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- 3号棟 -->
-                    <div class="tab-content" id="no3-content">
-                        <ul class="c-flex -col2_3">
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 1/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 1/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 2/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 2/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 3/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 3/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 4/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 4/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 5/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 5/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 6/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 6/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 7/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 7/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 8/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 8/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 9/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 9/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 10/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 10/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 11/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 11/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 12/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 12/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- 4号棟 -->
-                    <div class="tab-content" id="no4-content">
-                        <ul class="c-flex -col2_3">
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 1/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 1/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 2/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 2/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 3/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 3/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 4/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 4/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 5/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 5/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 6/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 6/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 7/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 7/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 8/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 8/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 9/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 9/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 10/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 10/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 11/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 11/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                            <li class="mgb3 mgb3s">
-                                <div class="a-zoomImg">
-                                    <div class="imgBox">
-                                        <a href="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)" class="luminous" data-lightbox="build-pic" data-title="画像名 12/12"><img src="https://via.placeholder.com/480x320/?text=ALL 480x320(4:3)"  alt="画像名 12/12"/></a>
-                                    </div>
-                                </div>
-                                <p class="s-M -left">画像名</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
     <!-- //コンテンツ -->
