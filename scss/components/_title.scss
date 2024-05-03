@@ -73,6 +73,7 @@
 
     // オリジナル
     &.-ideas{&::before{content: "FLOOR PLAN IDEAS"; white-space: nowrap;}}
+    &.-special{&::before{content: "SPECIAL"; white-space: nowrap;}}
 
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
