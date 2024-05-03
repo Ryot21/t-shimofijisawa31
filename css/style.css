@@ -4470,6 +4470,10 @@ button.swiper-pagination-bullet {
   content: "OWNER VOICE";
   white-space: nowrap;
 }
+.c-contents_title.-ideas::before {
+  content: "FLOOR PLAN IDEAS";
+  white-space: nowrap;
+}
 .c-contents_title.-sample::before {
   content: "CONTENT TITLE";
   white-space: nowrap;
@@ -6318,7 +6322,7 @@ a {
 }
 
 .p-top {
-  width: 100vw;
+  width: 100lvw;
   height: 100lvh;
   animation: fadeAnime 3s forwards;
 }
@@ -6334,7 +6338,7 @@ a {
 }
 
 .p-concept {
-  width: 100vw;
+  width: 100lvw;
   height: 100lvh;
   animation: fadeAnime 2s forwards;
 }
