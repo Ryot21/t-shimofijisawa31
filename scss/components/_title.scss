@@ -74,6 +74,9 @@
     // オリジナル
     &.-ideas{&::before{content: "FLOOR PLAN IDEAS"; white-space: nowrap;}}
     &.-special{&::before{content: "SPECIAL"; white-space: nowrap;}}
+    &.-structure{&::before{content: "STRUCTURE"; white-space: nowrap;}}
+    &.-wood{&::before{content: "STRUCTURAL WOOD"; white-space: nowrap;}}
+    &.-pro{&::before{content: "PROFESSIONAL"; white-space: nowrap;}}
 
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }

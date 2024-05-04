@@ -285,6 +285,80 @@
 					opacity: .8;
 				}
 			}
+
+			// 構造ページ
+			&.-st-text01{
+				top: 19%;
+				left: 76.2%;
+				transform: translate(-5%, -50%);
+				width: auto;
+				@include min(768){
+					top: 3%;
+					left: 82.2%;
+					transform: translate(-50%, -50%);
+				}
+			}
+			&.-st-text02{
+				top: 12%;
+				left: 73%;
+				transform: translate(10%, -50%);
+				@include min(768){
+					top: 12%;
+					left: 73%;
+					transform: translate(10%, -50%);
+				}
+			}
+			&.-st-text03{
+				top: 21%;
+				left: 69%;
+				transform: translate(22%, -50%);
+				@include min(768){
+					top: 21%;
+					left: 69%;
+					transform: translate(22%, -50%);
+				}
+			}
+			&.-st-text04{
+				top: 96%;
+				left: 79.5%;
+				transform: translate(-3%, -50%);
+				width: auto;
+				@include min(768){
+					top: 96%;
+					left: 79.5%;
+					transform: translate(-3%, -50%);
+				}
+			}
+			&.-st-text05{
+				top: 50%;
+				left: 37.8%;
+				transform: translate(-50%, -50%);
+				@include min(768){
+					top: 50%;
+					left: 39%;
+					transform: translate(-50%, -50%);
+				}
+			}
+			&.-st-text06{
+				top: 79%;
+				left: 41.5%;
+				transform: translate(-50%, -50%);
+				@include min(768){
+					top: 80%;
+					left: 42.5%;
+					transform: translate(-50%, -50%);
+				}
+			}
+			&.-st-text07{
+				top: 88.5%;
+				left: 44.8%;
+				transform: translate(-50%, -50%);
+				@include min(768){
+					top: 88.5%;
+					left: 46.75%;
+					transform: translate(-50%, -50%);
+				}
+			}
 		}
 	}
 }

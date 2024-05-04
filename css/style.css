@@ -313,6 +313,11 @@ h1.s-S, h2.s-S, h3.s-S, h4.s-S, h5.s-S, h6.s-S, p.s-S, a.s-S, span.s-S, label.s-
   }
 }
 @media (768px >= width) {
+  h1.s-S.-s10, h2.s-S.-s10, h3.s-S.-s10, h4.s-S.-s10, h5.s-S.-s10, h6.s-S.-s10, p.s-S.-s10, a.s-S.-s10, span.s-S.-s10, label.s-S.-s10, button.s-S.-s10 {
+    font-size: 1rem;
+  }
+}
+@media (768px >= width) {
   h1.s-S.-s12, h2.s-S.-s12, h3.s-S.-s12, h4.s-S.-s12, h5.s-S.-s12, h6.s-S.-s12, p.s-S.-s12, a.s-S.-s12, span.s-S.-s12, label.s-S.-s12, button.s-S.-s12 {
     font-size: 1.2rem;
   }
@@ -359,6 +364,11 @@ h1.s-L, h2.s-L, h3.s-L, h4.s-L, h5.s-L, h6.s-L, p.s-L, a.s-L, span.s-L, label.s-
 @media (768px >= width) {
   h1.s-L.-s12, h2.s-L.-s12, h3.s-L.-s12, h4.s-L.-s12, h5.s-L.-s12, h6.s-L.-s12, p.s-L.-s12, a.s-L.-s12, span.s-L.-s12, label.s-L.-s12, button.s-L.-s12 {
     font-size: 1.2rem;
+  }
+}
+@media (768px >= width) {
+  h1.s-L.-s13, h2.s-L.-s13, h3.s-L.-s13, h4.s-L.-s13, h5.s-L.-s13, h6.s-L.-s13, p.s-L.-s13, a.s-L.-s13, span.s-L.-s13, label.s-L.-s13, button.s-L.-s13 {
+    font-size: 1.3rem;
   }
 }
 @media (768px >= width) {
@@ -4343,6 +4353,92 @@ button.swiper-pagination-bullet {
     opacity: 0.8;
   }
 }
+.c-contents.-imgBg .c-contentsBox.-st-text01 {
+  top: 19%;
+  left: 76.2%;
+  transform: translate(-5%, -50%);
+  width: auto;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text01 {
+    top: 3%;
+    left: 82.2%;
+    transform: translate(-50%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text02 {
+  top: 12%;
+  left: 73%;
+  transform: translate(10%, -50%);
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text02 {
+    top: 12%;
+    left: 73%;
+    transform: translate(10%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text03 {
+  top: 21%;
+  left: 69%;
+  transform: translate(22%, -50%);
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text03 {
+    top: 21%;
+    left: 69%;
+    transform: translate(22%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text04 {
+  top: 96%;
+  left: 79.5%;
+  transform: translate(-3%, -50%);
+  width: auto;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text04 {
+    top: 96%;
+    left: 79.5%;
+    transform: translate(-3%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text05 {
+  top: 50%;
+  left: 37.8%;
+  transform: translate(-50%, -50%);
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text05 {
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text06 {
+  top: 79%;
+  left: 41.5%;
+  transform: translate(-50%, -50%);
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text06 {
+    top: 80%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-st-text07 {
+  top: 88.5%;
+  left: 44.8%;
+  transform: translate(-50%, -50%);
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-st-text07 {
+    top: 88.5%;
+    left: 46.75%;
+    transform: translate(-50%, -50%);
+  }
+}
 
 .c-contents_title {
   position: relative;
@@ -4476,6 +4572,18 @@ button.swiper-pagination-bullet {
 }
 .c-contents_title.-special::before {
   content: "SPECIAL";
+  white-space: nowrap;
+}
+.c-contents_title.-structure::before {
+  content: "STRUCTURE";
+  white-space: nowrap;
+}
+.c-contents_title.-wood::before {
+  content: "STRUCTURAL WOOD";
+  white-space: nowrap;
+}
+.c-contents_title.-pro::before {
+  content: "PROFESSIONAL";
   white-space: nowrap;
 }
 .c-contents_title.-sample::before {
