@@ -43,16 +43,16 @@
     &.-col1_2{
         flex-wrap: wrap;
         @include min(768){
-            flex-wrap: nowrap;
+            // flex-wrap: nowrap;
         }
         li{
             width: 100%;
             @include min(768){
                 width: calc(50% - 15px);
-                &:nth-child(1){
+                &:nth-child(odd){
                     margin-right: 15px;
                 }
-                &:nth-child(2){
+                &:nth-child(even){
                     margin-left: 15px;
                 }
             }
@@ -380,7 +380,7 @@
                 }
                 @include min(1400){
                     &:nth-child(1){width: 100%;}
-                    &:nth-child(2){width: 18%;}
+                    &:nth-child(2){width: 15%;}
                     &:nth-child(3){width: 82%;}
                 }
             }

@@ -62,15 +62,15 @@
         padding: 0 5px;
     }
     &.-double{
-        border: 4px double $site-color01;
+        border: 4px double $main-color--b;
         @include min(768){
-            border: 7px double $site-color01;
+            border: 7px double $main-color--b;
         }
     }
     &.-solid{
-        border: 1px solid $site-color01;
+        border: 1px solid $main-color--b;
         @include min(768){
-            border: 1px solid $site-color01;
+            border: 1px solid $main-color--b;
         }
     }
 }
@@ -121,6 +121,13 @@
     background: $site-color02;
     padding: 3% 0 6%;
     border-radius: 5px;
+    @include min(768){
+        padding: 3% 0 4%;
+    }
+}
+.borderBox{
+    padding: 3% 0 6%;
+    border: 1px solid $main-color--b;
     @include min(768){
         padding: 3% 0 4%;
     }
