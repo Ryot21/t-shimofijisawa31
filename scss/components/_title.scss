@@ -77,8 +77,9 @@
     &.-structure{&::before{content: "STRUCTURE"; white-space: nowrap;}}
     &.-wood{&::before{content: "STRUCTURAL WOOD"; white-space: nowrap;}}
     &.-pro{&::before{content: "PROFESSIONAL"; white-space: nowrap;}}
+    &.-highway{&::before{content: "HIGHWAY MAP"; white-space: nowrap;}}
 
-    &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
+    &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}    // サンプル
 }
 
 // コンテンツ_メインタイトル

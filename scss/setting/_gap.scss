@@ -144,7 +144,7 @@
 
 // 768px以上
 .pdt0  {@include min(768){padding-top: 0  !important;}}
-.pdt1  {@include min(768){padding-top: 1% !important;}}
+.pdt1  {@include min(768){padding-top: 1.5% !important;}}
 .pdt2  {@include min(768){padding-top: 2% !important;}}
 .pdt3  {@include min(768){padding-top: 3% !important;}}
 .pdt4  {@include min(768){padding-top: 4% !important;}}
@@ -176,7 +176,7 @@
 
 // 768px以上
 .pdb0  {@include min(768){padding-bottom: 0  !important;}}
-.pdb1  {@include min(768){padding-bottom: 1% !important;}}
+.pdb1  {@include min(768){padding-bottom: 1.5% !important;}}
 .pdb2  {@include min(768){padding-bottom: 2% !important;}}
 .pdb3  {@include min(768){padding-bottom: 3% !important;}}
 .pdb4  {@include min(768){padding-bottom: 4% !important;}}
