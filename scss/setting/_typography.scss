@@ -41,8 +41,8 @@ $f-b: bold;
 // 基本テキスト
 h1,h2,h3,h4,h5,h6,p,a,span,label,button{
 	color: $main-color--b;
-	font-family: $f-mincho;
-    // font-family: $f-gothic;
+	// font-family: $f-mincho;
+    font-family: $f-gothic;
     font-weight: $f-n;
     font-style: normal;
     // text-wrap: balance;
@@ -102,6 +102,7 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
 
     // 色
     &.-white{color: $main-color--w !important;}
+    &.-yellow{color: $main-color--y !important;}
     &.-color01{color: $site-color01 !important;}
     &.-color02{color: $site-color02 !important;}
     &.-color03{color: $site-color03 !important;}
