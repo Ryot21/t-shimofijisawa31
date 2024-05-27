@@ -4088,54 +4088,6 @@ button.swiper-pagination-bullet {
     width: 95%;
   }
 }
-.c-contents.-h-logo {
-  position: relative;
-}
-.c-contents.-h-logo .c-contentsBox {
-  position: absolute;
-}
-.c-contents.-h-logo .c-contentsBox.-logo-item01 {
-  top: 51%;
-  left: 101.5%;
-  width: 6.5%;
-}
-@media (width >= 768px) {
-  .c-contents.-h-logo .c-contentsBox.-logo-item01 {
-    top: 17.5%;
-    left: 30.8%;
-    width: 2.3%;
-  }
-}
-.c-contents.-h-logo .c-contentsBox.-logo-item02 {
-  top: 32%;
-  left: 110%;
-  width: 5%;
-}
-@media (width >= 768px) {
-  .c-contents.-h-logo .c-contentsBox.-logo-item02 {
-    top: 10%;
-    left: 33%;
-    width: 1.5%;
-  }
-}
-.c-contents.-h-logo .c-contentsBox.-soldOut {
-  top: 36%;
-  left: 45%;
-  transform: rotate(-5deg) translate(-50%, -50%);
-  width: 70%;
-  z-index: 99;
-  filter: drop-shadow(1px 1px 2px rgb(128, 128, 128));
-}
-.c-contents.-h-logo .c-contentsBox.-soldOut img {
-  background: #5a8190;
-}
-@media (width >= 768px) {
-  .c-contents.-h-logo .c-contentsBox.-soldOut {
-    top: 41%;
-    left: 63%;
-    width: 40%;
-  }
-}
 .c-contents.-f-slider, .c-contents.-f-view {
   width: 100%;
   height: auto;
@@ -4299,7 +4251,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-f-view .imgBox.-top::after {
-    background-image: url(../images/bg/top-view.jpg);
+    background-image: url(../images/bg/0524/top-view.jpg);
   }
 }
 .c-contents.-f-view .c-contentsBox {
@@ -4313,17 +4265,46 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-f-view .c-contentsBox.-f-logo {
-    top: 10%;
-    left: 35%;
-    width: 30%;
+    top: 15%;
+    left: 14%;
+    width: 15%;
   }
 }
-@media (768px >= width) {
+.c-contents.-f-view .c-contentsBox.-f-text {
+  top: 30%;
+  left: 10%;
+  width: 60%;
+}
+@media (width >= 768px) {
   .c-contents.-f-view .c-contentsBox.-f-text {
-    top: 39%;
-    left: 16%;
+    top: 35%;
+    left: 14%;
     /* transform: scale(0.9); */
-    width: 70%;
+    width: 25%;
+  }
+}
+.c-contents.-f-view .c-contentsBox.-f-debut {
+  top: 3%;
+  left: 5%;
+  width: 34%;
+}
+@media (width >= 768px) {
+  .c-contents.-f-view .c-contentsBox.-f-debut {
+    top: 0%;
+    left: 43%;
+    width: 20%;
+  }
+}
+.c-contents.-f-view .c-contentsBox.-f-balloon {
+  top: 42%;
+  left: 52%;
+  width: 45%;
+}
+@media (width >= 768px) {
+  .c-contents.-f-view .c-contentsBox.-f-balloon {
+    top: 3%;
+    left: 71%;
+    width: 16%;
   }
 }
 .c-contents.-imgBg {
