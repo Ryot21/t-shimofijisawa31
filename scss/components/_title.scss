@@ -63,6 +63,7 @@
     &.-entrance{&::before{content: "ENTRANCE";}}                                    // 玄関
     &.-ex{&::before{content: "EXTERIOR & COMFORTABLE"; white-space: nowrap;}}       // 設備仕様
     &.-skyBalcony{&::before{content: "SKY BALCONY"; white-space: nowrap;}}          // スカイバルコニー
+    &.-toilet{&::before{content: "TOILET"; white-space: nowrap;}}                   // トイレ
 
     &.-deilyUse{&::before{content: "DAILY USE";}}                                   // 周辺環境
     &.-access{&::before{content: "ACCESS";}}                                        // アクセス

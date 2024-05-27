@@ -4567,6 +4567,10 @@ button.swiper-pagination-bullet {
   content: "SKY BALCONY";
   white-space: nowrap;
 }
+.c-contents_title.-toilet::before {
+  content: "TOILET";
+  white-space: nowrap;
+}
 .c-contents_title.-deilyUse::before {
   content: "DAILY USE";
 }
