@@ -136,7 +136,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6, p, a, span, label, button {
   color: #3b3b3b;
-  font-family: mincho-font01;
+  font-family: gothic-font01;
   font-weight: normal;
   font-style: normal;
   line-height: 1.3;
@@ -251,6 +251,9 @@ h1.-f-En03, h2.-f-En03, h3.-f-En03, h4.-f-En03, h5.-f-En03, h6.-f-En03, p.-f-En0
 }
 h1.-white, h2.-white, h3.-white, h4.-white, h5.-white, h6.-white, p.-white, a.-white, span.-white, label.-white, button.-white {
   color: #ffffff !important;
+}
+h1.-yellow, h2.-yellow, h3.-yellow, h4.-yellow, h5.-yellow, h6.-yellow, p.-yellow, a.-yellow, span.-yellow, label.-yellow, button.-yellow {
+  color: #ffff00 !important;
 }
 h1.-color01, h2.-color01, h3.-color01, h4.-color01, h5.-color01, h6.-color01, p.-color01, a.-color01, span.-color01, label.-color01, button.-color01 {
   color: #e5cbff !important;
@@ -4305,6 +4308,17 @@ button.swiper-pagination-bullet {
     top: 3%;
     left: 71%;
     width: 16%;
+  }
+}
+.c-contents.-f-view .c-contentsBox.-concept-text {
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+@media (width >= 768px) {
+  .c-contents.-f-view .c-contentsBox.-concept-text {
+    top: 48%;
   }
 }
 .c-contents.-imgBg {

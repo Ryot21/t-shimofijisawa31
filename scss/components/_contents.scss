@@ -206,6 +206,14 @@
 					width: 16%;
 				}
 			}
+
+			&.-concept-text{
+				top: 46%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: auto;
+				@include min(768){top: 48%;}
+			}
 		}
 	}
 
